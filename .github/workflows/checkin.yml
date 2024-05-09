@@ -40,7 +40,8 @@ jobs:
         GH_TOKEN: ${{ secrets.PAT}}
       run: |
         cd aggregate/data
-        gh gist edit ${{ secrets.GIST_ID }} --add "proxies.yaml"
+        split -l 1000 -d proxies.yaml proxies_split_
+        for file in proxies_split_*; do gh gist edit ${{ secrets.GIST_ID }} --add $file; done
         gh gist edit ${{ secrets.GIST_ID }} --add "subscribes.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "domains.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "valid-domains.txt"
