@@ -40,8 +40,19 @@ jobs:
         GH_TOKEN: ${{ secrets.PAT}}
       run: |
         cd aggregate/data
-        gh gist edit ${{ secrets.GIST_ID }} --add "proxies.yaml"
         gh gist edit ${{ secrets.GIST_ID }} --add "subscribes.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "domains.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "valid-domains.txt"
-        echo "Your text goes here" | gh gist edit ${{ secrets.GIST_ID }} --filename="proxies.yaml"
+
+    - name: Read proxies.yaml
+      id: read_proxies
+      run: |
+        content=$(cat proxies.yaml)
+        echo "::set-output name=content::$content"
+
+    - name: Gist Write Action
+      uses: sergeysova/gist-write-action@v1.0.0
+      with:
+        gist_id: ${{ secrets.GIST_ID }} # 替换为你的Gist ID
+        file_name: "proxies.yaml" # 替换为要写入的文件名
+        content: ${{ steps.read_proxies.outputs.content }}
