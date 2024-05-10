@@ -40,27 +40,7 @@ jobs:
         GH_TOKEN: ${{ secrets.PAT}}
       run: |
         cd aggregate/data
+        gh gist edit ${{ secrets.GIST_ID }} --add "proxies.yaml"
         gh gist edit ${{ secrets.GIST_ID }} --add "subscribes.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "domains.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "valid-domains.txt"
-
-    - name: Update Gist with Proxies
-      env:
-        GH_TOKEN: ${{ secrets.PAT}}
-        GIST_ID: ${{ secrets.GIST_ID }}
-      run: |
-        cd aggregate/data
-        FILE_NAME=proxies.yaml
-        FILE_CONTENT=$(cat $FILE_NAME)
-
-        curl -X PATCH \
-          -H "Authorization: Bearer $GH_TOKEN" \
-          -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/gists/$GIST_ID \
-          -d '{
-            "files": {
-              "'"$FILE_NAME"'": {
-                "content": "'"$FILE_CONTENT"'"
-              }
-            }
-          }'
