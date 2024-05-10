@@ -47,6 +47,7 @@ jobs:
     - name: Read proxies.yaml
       id: read_proxies
       run: |
+        cd aggregate/data
         content=$(cat proxies.yaml)
         echo "::set-output name=content::$content"
 
