@@ -53,7 +53,7 @@ jobs:
 
     - name: Gist Write Action
       env:
-        GH_TOKEN: ${{ secrets.PAT}}
+        GITHUB_TOKEN: ${{ secrets.PAT}}
       uses: sergeysova/gist-write-action@v1.0.0
       with:
         gist_id: ${{ secrets.GIST_ID }} # 替换为你的Gist ID
