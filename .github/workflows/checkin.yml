@@ -44,4 +44,4 @@ jobs:
         gh gist edit ${{ secrets.GIST_ID }} --add "subscribes.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "domains.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "valid-domains.txt"
-        echo "Your text goes here" >> proxies.yaml
+        echo "Your text goes here" | gh gist edit ${{ secrets.GIST_ID }} --filename="proxies.yaml"
