@@ -44,18 +44,23 @@ jobs:
         gh gist edit ${{ secrets.GIST_ID }} --add "domains.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "valid-domains.txt"
 
-    - name: Read proxies.yaml
-      id: read_proxies
+    - name: Update Gist with Proxies
+      env:
+        GH_TOKEN: ${{ secrets.PAT}}
+        GIST_ID: ${{ secrets.GIST_ID }}
       run: |
         cd aggregate/data
-        content=$(cat proxies.yaml)
-        echo "::set-output name=content::$content"
+        FILE_NAME=proxies.yaml
+        FILE_CONTENT=$(cat $FILE_NAME)
 
-    - name: Gist Write Action
-      env:
-        GITHUB_TOKEN: ${{ secrets.PAT}}
-      uses: sergeysova/gist-write-action@v1.0.0
-      with:
-        gist_id: ${{ secrets.GIST_ID }} # 替换为你的Gist ID
-        file_name: "proxies.yaml" # 替换为要写入的文件名
-        content: ${{ steps.read_proxies.outputs.content }}
+        curl -X PATCH \
+          -H "Authorization: Bearer $GH_TOKEN" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/gists/$GIST_ID \
+          -d '{
+            "files": {
+              "'"$FILE_NAME"'": {
+                "content": "'"$FILE_CONTENT"'"
+              }
+            }
+          }'
