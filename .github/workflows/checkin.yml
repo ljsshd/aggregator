@@ -44,3 +44,15 @@ jobs:
         gh gist edit ${{ secrets.GIST_ID }} --add "subscribes.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "domains.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "valid-domains.txt"
+        
+    - name: Configure git
+      run: |
+        git config --global user.email "912797427@qq.com" # 使用您的 GitHub 邮箱地址
+        git config --global user.name "ljsshd" # 使用您的 GitHub 用户名
+
+    - name: Commit and Push
+      run: |
+       cd aggregate/data # 根据需要进入到文件所在目录
+       git add proxies.yaml
+       git commit -m "Update proxies.yaml" # 提交信息根据需要自定义
+       git push
