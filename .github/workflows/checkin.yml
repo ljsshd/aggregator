@@ -40,7 +40,25 @@ jobs:
         GH_TOKEN: ${{ secrets.PAT}}
       run: |
         cd aggregate/data
-        gh gist edit ${{ secrets.GIST_ID }} --add "proxies.yaml"
         gh gist edit ${{ secrets.GIST_ID }} --add "subscribes.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "domains.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "valid-domains.txt"
+
+    - name: Update Gist File
+      env:
+        GH_TOKEN: ${{ secrets.PAT }}
+        GIST_ID: ${{ secrets.GIST_ID }}
+      run: |
+        cd aggregate/data
+        # 使用 curl 命令清空 Gist 文件内容
+        curl -X PATCH https://api.github.com/gists/$GIST_ID \
+        -H "Authorization: token $GH_TOKEN" \
+        -d '{"files": {"proxies.yaml": {"content": "" }}}'
+        
+        # 更新 Gist 文件
+        # 假设 `proxies.yaml` 在当前目录下
+        CONTENT=$(<proxies.yaml)
+        JSON_CONTENT=$(jq -n --arg content "$CONTENT" '{"files": {"proxies.yaml": {"content": $content}}}')
+        curl -X PATCH https://api.github.com/gists/$GIST_ID \
+        -H "Authorization: token $GH_TOKEN" \
+        -d "$JSON_CONTENT"
