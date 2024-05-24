@@ -34,7 +34,32 @@ jobs:
       run: |
         cd aggregate
         python -u subscribe/collect.py -s
+      continue-on-error: true
+
+    - name: Send success notification # 成功时发送通知
+      if: success()
+      run: |
+        curl -X POST "https://wxpusher.zjiecode.com/api/send/message" -H "Content-Type: application/json" -d '{
+          "appToken":${{ secrets.WXPUSHER_APPTOKEN }},
+          "content":"机场爬虫运行成功",
+          "contentType":1,
+          "topicIds":[30318],
+          "verifyPay":false, 
+          "verifyPayType":0
+        }'
       
+    - name: Send failure notification # 失败时发送通知
+      if: failure()
+      run: |
+        curl -X POST "https://wxpusher.zjiecode.com/api/send/message" -H "Content-Type: application/json" -d '{
+          "appToken":${{ secrets.WXPUSHER_APPTOKEN }},
+          "content":"机场爬虫运行失败",
+          "contentType":1,
+          "topicIds":[30318],
+          "verifyPay":false, 
+          "verifyPayType":0
+        }'
+        
     - name: Create/Update Gist
       env:
         GH_TOKEN: ${{ secrets.PAT}}
