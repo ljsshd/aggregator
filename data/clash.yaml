@@ -1,433 +1,388 @@
 proxies:
-  - {name: 🇮🇳 印度1-1B, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 994a7047-e230-4117-b3c3-f9a470895cc4, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港NO.1-1C, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大2-1B, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大2-1C, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 994a7047-e230-4117-b3c3-f9a470895cc4, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: TW01|1073, server: 59.126.32.188, port: 10073, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇭🇰 香港05, server: x02.fafhjkah.xyz, port: 32601, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: TW01|1017, server: 1.165.67.204, port: 10017, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇺🇸 美国-V6|01 2, server: crun6.668918.xyz, port: 22308, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2009, server: 125.228.180.215, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2049, server: 114.35.114.182, port: 10129, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇬🇧 英国02, server: 02.xunyunnode.sbs, port: 59406, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|2065, server: 125.228.162.233, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 日本01-1C, server: 01.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇭🇰 香港-V6|07, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇬🇧 英国01-1A, server: x.fafhjkah.xyz, port: 32624, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: 🇮🇳 印度 X A区-1A, server: zf-ct.bgblwow.org, port: 59069, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|1067, server: 36.234.127.28, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1074, server: 114.46.65.156, port: 10074, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TH Y I N TIKTOK, server: 150.241.86.113, port: 80, type: vmess, uuid: 48d5995d-3ba2-44e3-b1b2-e4adb72bcf21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnrussia, headers: {Host: dl.ops.kgvn.garenanow.com}}, udp: true}
-  - {name: 🇰🇷 韩国 X A区-1A, server: zf-ct.bgblwow.org, port: 57459, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 有问题访问, server: x.fafhjkah.xyz, port: 32602, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: 🇨🇦 加拿大02, server: 02.xunyunnode.sbs, port: 57990, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|1046, server: 114.46.88.89, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇫🇷 法国 X A区-1B, server: zf-cu.bgblwow.org, port: 50748, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|2071, server: 36.232.112.221, port: 10151, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1051, server: 36.234.114.145, port: 10051, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇰🇷 韩国 专线NO2-1A, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2056, server: 111.253.196.84, port: 10136, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇼 台湾2-1D, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国NO.2-1C, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2055, server: 36.232.82.207, port: 10135, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1040, server: 125.230.15.147, port: 10040, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1076, server: 125.231.83.177, port: 10076, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇸🇬 新加坡SG-01, server: 34.2.142.108, port: 20001, type: vless, uuid: bc05d516-1f17-426d-88e1-1bc996f470a9, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: LN0V5BmZRNs6dNx_CHoM8d34Kl7qlpxl8xrjE8ZzMzk}, servername: www.icloud.com, client-fingerprint: safari, network: tcp, udp: true}
-  - {name: 🇬🇧 英国04, server: wa.xunyunnode.sbs, port: 25174, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇺🇸 美国NO.2-1A, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇲🇽 墨西哥 1 X1-1B, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: c3c52c63-2c71-47c3-bdf5-ad4ee4c6b68e, udp: true}
-  - {name: 🇭🇰 香港03丨NEFLIX, server: xc.xunyunnode.sbs, port: 26200, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|2008, server: 1.170.12.193, port: 10088, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1077, server: 36.234.74.176, port: 10077, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1045, server: 114.46.121.19, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2043, server: 36.232.77.166, port: 10123, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇺🇸 北美高速, server: 1002.952326.xyz, port: 10001, type: vless, uuid: 9450d209-ae56-4321-8c1d-f269a5ea10f9, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, servername: www.python.org, client-fingerprint: edge, network: tcp, udp: true}
-  - {name: 🇯🇵 日本 X A区-1B, server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|2035, server: 111.253.217.5, port: 10115, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇨🇦 加拿大01-1A, server: x.fafhjkah.xyz, port: 32625, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: 🇺🇸 美国RN3-高速, server: us-rn3.xaa.app, port: 443, type: trojan, password: 4cc6ceaa-3ff2-4aa2-8499-e4976bc4260e, sni: us-rn3.xaa.app, udp: true}
-  - {name: 🇦🇺 澳大利亚原生1-1C, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港-V4|02, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: d0955291-734f-4712-b0a3-82f5c067c599, sni: hkvm4.656888.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇱 以色列 1x1-1A, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: f5f8ff64-7c1d-4448-8415-ee3d3d5a0169, udp: true}
-  - {name: 🇭🇰 斑马VIP-香港, server: banmabanmabanmabanmabanmabanma9.wanlidag.top, port: 54265, type: hysteria2, password: 553efbfe-cc12-4500-8590-4a56ad4bca44, auth: 553efbfe-cc12-4500-8590-4a56ad4bca44, sni: banmabanmabanmabanmabanmabanma9.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: TW01|1080, server: 125.231.74.223, port: 10080, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 日本01-1A, server: x.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: 🇨🇦 加拿大1-1D, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2040, server: 1.170.30.250, port: 10120, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇸🇬 新加坡H23, server: h23.cpddx.club, port: 8443, type: hysteria2, password: 55a66ca3-96a0-4846-87b8-a4fe78c86fca, auth: 55a66ca3-96a0-4846-87b8-a4fe78c86fca, sni: h23.cpddx.club, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.2-1B, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国2-1D, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国1-1B, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.1-1D, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1036, server: 118.170.231.47, port: 10036, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 日本03丨NEFLIX, server: xc.xunyunnode.sbs, port: 26329, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: ME-NMH, server: empty.node, port: 443, type: trojan, password: aec921ca-3459-43ee-8b47-28220aa61b30, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: TW01|1001, server: 125.229.191.100, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇬🇧 英国1-1A, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港 X A区-1B, server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|2017, server: 125.228.31.117, port: 10097, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇫🇷 法国1-1A, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 印度 1 X1-1B, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: c3c52c63-2c71-47c3-bdf5-ad4ee4c6b68e, udp: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 994a7047-e230-4117-b3c3-f9a470895cc4, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾解锁 1 X1-1A, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: f5f8ff64-7c1d-4448-8415-ee3d3d5a0169, udp: true}
-  - {name: TW01|2023, server: 1.170.4.89, port: 10103, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2072, server: 36.235.13.17, port: 10152, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇦🇺 澳大利亚原生2-1D, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 斑马白嫖-美国-1A, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 553efbfe-cc12-4500-8590-4a56ad4bca44, auth: 553efbfe-cc12-4500-8590-4a56ad4bca44, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度2-1D, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 US, server: us.tizi8.top, port: 36999, type: hysteria2, password: 7c1f3396-cb15-45ed-9088-f3a7436fbb77, auth: 7c1f3396-cb15-45ed-9088-f3a7436fbb77, skip-cert-verify: false, udp: true}
-  - {name: TW01|1078, server: 114.46.84.154, port: 10078, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇺🇸 中转美国1 X1-1A, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: f5f8ff64-7c1d-4448-8415-ee3d3d5a0169, udp: true}
-  - {name: 🇭🇰 香港 X A区-1A, server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|2063, server: 36.232.71.154, port: 10143, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇭🇰 香港-V6|05 0.5x, server: nathk.91ai.de, port: 18002, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1068, server: 114.46.108.65, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇭🇰 香港01|BGP专线|VIP01, server: 183.60.254.172, port: 14514, type: trojan, password: 71c28bb8-691f-4666-abd4-0cca173545c2, sni: aliyun.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 加拿大2-1D, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1020, server: 1.165.114.1, port: 10020, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇦🇺 澳大利亚原生1-1D, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2064, server: 36.232.70.44, port: 10144, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1007, server: 125.229.191.101, port: 10007, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇸🇬 新加坡NO.2-1C, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本-V6|05, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1019, server: 125.229.191.102, port: 10019, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 日本NO.1-1C, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 X A区-1C, server: zf-cm.bgblwow.org, port: 55782, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇻🇳 越南04, server: wa.xunyunnode.sbs, port: 43680, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|1009, server: 118.170.240.102, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇺🇸 美国NO.1-1B, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.2-1D, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1072, server: 36.234.119.59, port: 10072, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇼 台湾TW-01, server: 35.206.222.140, port: 20001, type: vless, uuid: bc05d516-1f17-426d-88e1-1bc996f470a9, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: koaZC14G5h5kBpZOOwFntz1jhpc7uWKhYi46xgJVEWA}, servername: www.icloud.com, client-fingerprint: ios, network: tcp, udp: true}
-  - {name: TW01|1026, server: 118.170.236.202, port: 10026, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇷🇺 斑马VIP-俄罗斯, server: banmabanmabanmabanmabanmabanma8.wanlidag.top, port: 54265, type: hysteria2, password: 553efbfe-cc12-4500-8590-4a56ad4bca44, auth: 553efbfe-cc12-4500-8590-4a56ad4bca44, sni: banmabanmabanmabanmabanmabanma8.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: TW01|2002, server: 1.170.40.190, port: 10082, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2003, server: 1.170.53.141, port: 10083, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇬🇧 英国1-1C, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.1-1C, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1006, server: 1.165.124.250, port: 10006, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1049, server: 114.46.64.49, port: 10049, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1044, server: 36.234.115.197, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇸🇬 新加坡NO.1-1B, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1010, server: 118.170.241.37, port: 10010, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇼 台湾04, server: wa.xunyunnode.sbs, port: 12009, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|1079, server: 114.46.83.123, port: 10079, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2013, server: 1.170.60.27, port: 10093, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 日本-V6|06, server: greenip3.668918.xyz, port: 22308, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国1-1D, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.2-1A, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港 X A区-1C, server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|2045, server: 36.232.108.55, port: 10125, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2018, server: 111.253.216.200, port: 10098, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 日本04丨, server: wa.xunyunnode.sbs, port: 25856, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|2007, server: 36.235.7.109, port: 10087, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1022, server: 1.165.96.29, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇸🇬 新加坡-SS2, server: sg3.xaa.app, port: 9527, type: ss, cipher: chacha20-ietf-poly1305, password: 4cc6ceaa-3ff2-4aa2-8499-e4976bc4260e, udp: true}
-  - {name: 🇩🇪 德国-V6|02 0.5x, server: netcp2.616626.xyz, port: 22306, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 专线NO1-1C, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本02, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: d0955291-734f-4712-b0a3-82f5c067c599, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
-  - {name: TW01|1065, server: 114.46.115.129, port: 10065, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 日本 X A区-1C, server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇺🇸 美国01-1C, server: 01.xunyunnode.sbs, port: 45823, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|1002, server: 1.165.101.78, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 日本01-1B, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: d0955291-734f-4712-b0a3-82f5c067c599, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西 1 X1-1B, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: c3c52c63-2c71-47c3-bdf5-ad4ee4c6b68e, udp: true}
-  - {name: TW01|2069, server: 111.253.217.167, port: 10149, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇺🇸 斑马VIP-美国, server: banmabanmabanmabanmabanmabanma3.wanlidag.top, port: 54265, type: hysteria2, password: 553efbfe-cc12-4500-8590-4a56ad4bca44, auth: 553efbfe-cc12-4500-8590-4a56ad4bca44, sni: banmabanmabanmabanmabanmabanma3.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: TW01|2037, server: 36.235.12.250, port: 10117, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇭🇰 香港 1 X1-1A, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: f5f8ff64-7c1d-4448-8415-ee3d3d5a0169, udp: true}
-  - {name: TW01|2038, server: 1.170.12.61, port: 10118, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 日本NO.1-1D, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1058, server: 59.126.32.1, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇮🇳 印度 1 X1-1A, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: f5f8ff64-7c1d-4448-8415-ee3d3d5a0169, udp: true}
-  - {name: 🇬🇧 英国05, server: x02.fafhjkah.xyz, port: 32624, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: 🇯🇵 日本05, server: x02.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: 🇮🇳 印度1-1D, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾2-1B, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1062, server: 36.234.123.226, port: 10062, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇼 台湾01-1A, server: x.fafhjkah.xyz, port: 32612, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: 🇸🇬 新加坡TJ, server: tj.cpddx.club, port: 8443, type: trojan, password: 55a66ca3-96a0-4846-87b8-a4fe78c86fca, sni: tj.cpddx.club, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: tj.cpddx.club}}, udp: true}
-  - {name: TW01|1059, server: 125.230.15.143, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇬🇧 英国2-1D, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港NO.2-1A, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港NO.1-1A, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇳🇱 荷兰-V6|01 0.5x, server: naran1.616626.xyz, port: 22305, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2050, server: 36.232.74.12, port: 10130, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: MAX, server: 82.97.250.26, port: 80, type: vmess, uuid: 48d5995d-3ba2-44e3-b1b2-e4adb72bcf21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnrussia, headers: {Host: dl.ops.kgvn.garenanow.com}}, udp: true}
-  - {name: 🇭🇰 斑马VIP-香港2, server: banmabanmabanmabanmabanmabanma10.wanlidag.top, port: 54265, type: hysteria2, password: 553efbfe-cc12-4500-8590-4a56ad4bca44, auth: 553efbfe-cc12-4500-8590-4a56ad4bca44, sni: banmabanmabanmabanmabanmabanma10.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: TW01|2006, server: 1.170.28.243, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2022, server: 1.170.0.71, port: 10102, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 斑马VIP-日本, server: banmabanmabanmabanmabanmabanma5.wanlidag.top, port: 54265, type: hysteria2, password: 553efbfe-cc12-4500-8590-4a56ad4bca44, auth: 553efbfe-cc12-4500-8590-4a56ad4bca44, sni: banmabanmabanmabanmabanmabanma5.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: TW01|2036, server: 36.235.18.51, port: 10116, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: LUXURY, server: 91.186.196.235, port: 80, type: vmess, uuid: 48d5995d-3ba2-44e3-b1b2-e4adb72bcf21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnrussia, headers: {Host: dl.ops.kgvn.garenanow.com}}, udp: true}
-  - {name: 🇬🇧 英国2-1C, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1071, server: 114.46.93.203, port: 10071, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇷 土耳其 1 X1-1B, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: c3c52c63-2c71-47c3-bdf5-ad4ee4c6b68e, udp: true}
-  - {name: UZ-RJY, server: vvv.google.com, port: 20007, type: vmess, uuid: 9445f62d-2d71-427a-912c-8928cafc057a, alterId: 0, cipher: auto, tls: true, servername: vvv.google.com, udp: true}
-  - {name: 🇺🇸 美国NO.2-1B, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1008, server: 114.46.81.179, port: 10008, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇧🇷 巴西 X A区-1A, server: zf-ct.bgblwow.org, port: 59469, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|1004, server: 125.230.19.23, port: 10004, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2020, server: 1.170.63.45, port: 10100, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1064, server: 36.234.97.230, port: 10064, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: C6-ZIH, server: zf-cm.bgblwow.org, port: 57304, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇭🇰 香港 1 X1-1B, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: c3c52c63-2c71-47c3-bdf5-ad4ee4c6b68e, udp: true}
-  - {name: TW01|2052, server: 111.253.208.10, port: 10132, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇻🇳 越南 X A区-1B, server: zf-cu.bgblwow.org, port: 55774, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇧🇷 巴西 X A区-1B, server: zf-cu.bgblwow.org, port: 57609, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇨🇦 加拿大03, server: xc.xunyunnode.sbs, port: 19707, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇺🇸 美国-V6|01, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 印度2-1A, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇺 AU, server: au.tizi8.top, port: 36999, type: hysteria2, password: 7c1f3396-cb15-45ed-9088-f3a7436fbb77, auth: 7c1f3396-cb15-45ed-9088-f3a7436fbb77, skip-cert-verify: false, udp: true}
-  - {name: TW01|2060, server: 36.232.72.74, port: 10140, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇸🇬 新加坡NO.1-1A, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大04, server: wa.xunyunnode.sbs, port: 50737, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|2044, server: 36.232.81.21, port: 10124, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇼 台湾 X A区-1C, server: zf-cm.bgblwow.org, port: 57989, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇯🇵 日本03, server: cloud.yueyun.de, port: 10389, type: trojan, password: d0955291-734f-4712-b0a3-82f5c067c599, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国05-1B, server: advin.189.ovh, port: 10027, type: trojan, password: d0955291-734f-4712-b0a3-82f5c067c599, sni: advin.189.ovh, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇽 墨西哥 1 X1-1A, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: f5f8ff64-7c1d-4448-8415-ee3d3d5a0169, udp: true}
-  - {name: 🇬🇧 英国1-1B, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1012, server: 125.231.79.50, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇰🇷 韩国 专线NO2-1D, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2012, server: 1.170.4.220, port: 10092, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇫🇷 法国1-1C, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇸 冰岛 1 X1-1B, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: c3c52c63-2c71-47c3-bdf5-ad4ee4c6b68e, udp: true}
-  - {name: 🇨🇦 加拿大01-1B, server: 01.xunyunnode.sbs, port: 44306, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇸🇬 新加坡解锁 1 X1-1A, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: f5f8ff64-7c1d-4448-8415-ee3d3d5a0169, udp: true}
-  - {name: 🇰🇷 韩国 1 X1-1B, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: c3c52c63-2c71-47c3-bdf5-ad4ee4c6b68e, udp: true}
-  - {name: 🇦🇺 澳大利亚原生2-1A, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1024, server: 1.165.82.226, port: 10024, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇭🇰 香港HK-01, server: 35.220.247.56, port: 20001, type: vless, uuid: bc05d516-1f17-426d-88e1-1bc996f470a9, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 7EzHI1RAOS6UI2MfIkY5bpbBQtlhCKoRMh7nen5_4D8}, servername: www.icloud.com, client-fingerprint: ios, network: tcp, udp: true}
-  - {name: 🇩🇪 斑马白嫖-德国-1B, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: 07c659be-6230-4af7-8e12-0c3e2a51156d, auth: 07c659be-6230-4af7-8e12-0c3e2a51156d, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡01-1B, server: 01.xunyunnode.sbs, port: 14195, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇰🇷 韩国 专线NO1-1D, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡-SS3, server: sg2.xaa.app, port: 9527, type: ss, cipher: chacha20-ietf-poly1305, password: 4cc6ceaa-3ff2-4aa2-8499-e4976bc4260e, udp: true}
-  - {name: 🇺🇸 美国03, server: xc.xunyunnode.sbs, port: 32893, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇭🇰 香港NO.2-1C, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国US-01, server: 35.208.101.238, port: 20001, type: vless, uuid: bc05d516-1f17-426d-88e1-1bc996f470a9, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: Mhb41pFvMmH9E4rsybAfu7C92XexsAahX5EQGY6B5XQ}, servername: www.icloud.com, client-fingerprint: safari, network: tcp, udp: true}
-  - {name: TW01|2054, server: 111.253.196.37, port: 10134, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2029, server: 1.170.45.30, port: 10109, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1039, server: 118.170.254.14, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2019, server: 1.170.23.189, port: 10099, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇺🇸 美国04-1B, server: wa.xunyunnode.sbs, port: 22041, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇹🇼 台湾1-1D, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇧🇷 巴西 X A区-1C, server: zf-cm.bgblwow.org, port: 53131, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇺🇸 美国NO.1-1A, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡SG-02, server: 34.2.142.108, port: 20002, type: vless, uuid: bc05d516-1f17-426d-88e1-1bc996f470a9, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: LN0V5BmZRNs6dNx_CHoM8d34Kl7qlpxl8xrjE8ZzMzk}, servername: www.icloud.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇦🇺 澳大利亚原生2-1B, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港04, server: wa.xunyunnode.sbs, port: 35301, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|2062, server: 36.232.93.42, port: 10142, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1005, server: 118.170.240.152, port: 10005, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇬🇧 英国2-1B, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾02, server: 02.xunyunnode.sbs, port: 43592, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|2027, server: 1.170.53.35, port: 10107, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 0.5x-1B, server: netcp4.616626.xyz, port: 10027, type: trojan, password: d0955291-734f-4712-b0a3-82f5c067c599, sni: netcp4.616626.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国 专线NO1-1A, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大1-1C, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾1-1A, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡03丨NEFLIX, server: xc.xunyunnode.sbs, port: 18416, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇬🇧 英国2-1A, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1075, server: 114.46.93.175, port: 10075, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1053, server: 36.234.103.184, port: 10053, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 日本1 X1-1B, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: c3c52c63-2c71-47c3-bdf5-ad4ee4c6b68e, udp: true}
-  - {name: 🇯🇵 日本-V6|02, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇱 以色列 1x1-1B, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: c3c52c63-2c71-47c3-bdf5-ad4ee4c6b68e, udp: true}
-  - {name: 🇸🇬 新加坡SG-03, server: 34.2.142.108, port: 20003, type: vless, uuid: bc05d516-1f17-426d-88e1-1bc996f470a9, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: LN0V5BmZRNs6dNx_CHoM8d34Kl7qlpxl8xrjE8ZzMzk}, servername: www.icloud.com, client-fingerprint: qq, network: tcp, udp: true}
-  - {name: 🇺🇸 美国02-1A, server: vir11.189.ovh, port: 10022, type: trojan, password: d0955291-734f-4712-b0a3-82f5c067c599, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
-  - {name: TW01|2047, server: 36.232.82.124, port: 10127, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇻🇳 越南 X A区-1A, server: zf-ct.bgblwow.org, port: 52384, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇯🇵 日本NO.1-1A, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡04丨, server: wa.xunyunnode.sbs, port: 50764, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇧🇷 巴西 1 X1-1A, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: f5f8ff64-7c1d-4448-8415-ee3d3d5a0169, udp: true}
-  - {name: 🇭🇰 香港NO.1-1D, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2070, server: 36.232.71.172, port: 10150, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1048, server: 36.234.88.193, port: 10048, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇸🇬 新加坡H2, server: h22.cpddx.club, port: 8443, type: hysteria2, password: 55a66ca3-96a0-4846-87b8-a4fe78c86fca, auth: 55a66ca3-96a0-4846-87b8-a4fe78c86fca, sni: h22.cpddx.club, skip-cert-verify: false, udp: true}
-  - {name: TW01|1041, server: 1.165.107.13, port: 10041, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 日本NO.2-1A, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国2-1B, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2011, server: 36.232.106.91, port: 10091, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇺🇸 北美IPLC专线, server: 1002.952326.xyz, port: 10000, type: hysteria2, password: 9450d209-ae56-4321-8c1d-f269a5ea10f9, auth: 9450d209-ae56-4321-8c1d-f269a5ea10f9, sni: 1002.kingfisher.us.kg, skip-cert-verify: false, obfs: salamander, obfs-password: VAYpRqMdlHDFG7EA, udp: true}
-  - {name: TW01|2025, server: 125.228.34.244, port: 10105, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 日本-V6|04, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2048, server: 36.232.79.126, port: 10128, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇷 土耳其 1 X1-1A, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: f5f8ff64-7c1d-4448-8415-ee3d3d5a0169, udp: true}
-  - {name: 🇹🇼 台湾 X A区-1A, server: zf-ct.bgblwow.org, port: 59345, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇭🇰 香港NO.1-1B, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1061, server: 1.165.112.13, port: 10061, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇮🇳 印度1-1C, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1038, server: 36.234.82.16, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇩🇪 德国 XA区, server: zf-ct.bgblwow.org, port: 54881, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|2051, server: 36.232.105.152, port: 10131, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2034, server: 36.232.80.208, port: 10114, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2053, server: 1.170.10.218, port: 10133, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇼 台湾01|BGP专线|SVIP03, server: 106.75.134.1, port: 12000, type: trojan, password: 71c28bb8-691f-4666-abd4-0cca173545c2, sni: aliyun.com, skip-cert-verify: true, udp: true}
-  - {name: TW01|2026, server: 1.170.62.16, port: 10106, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2033, server: 125.228.31.10, port: 10113, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1033, server: 125.229.191.104, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇮🇸 冰岛 1 X1-1A, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: f5f8ff64-7c1d-4448-8415-ee3d3d5a0169, udp: true}
-  - {name: TW01|2021, server: 1.170.13.71, port: 10101, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇦🇺 澳大利亚原生1-1B, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本 X A区-1A, server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇰🇷 韩国 专线NO2-1B, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国01-1B, server: vir732.189.ovh, port: 10026, type: trojan, password: d0955291-734f-4712-b0a3-82f5c067c599, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国 X A区-1A, server: zf-ct.bgblwow.org, port: 59720, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇺🇸 美国NO.2-1D, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1028, server: 1.165.118.88, port: 10028, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2028, server: 1.170.28.50, port: 10108, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇳🇱 荷兰-V6|04 0.5x, server: naran4.616626.xyz, port: 22310, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2004, server: 1.170.6.200, port: 10084, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2024, server: 36.235.10.185, port: 10104, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇸🇬 新加坡解锁 1 X1-1B, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: c3c52c63-2c71-47c3-bdf5-ad4ee4c6b68e, udp: true}
-  - {name: TW01|1029, server: 125.230.9.125, port: 10029, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2015, server: 1.170.33.219, port: 10095, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1056, server: 36.234.82.71, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇦🇺 澳大利亚原生2-1C, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港01, server: 01.xunyunnode.sbs, port: 13058, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇺🇸 美国RN2-快速, server: us-rn2.xaa.app, port: 443, type: trojan, password: 4cc6ceaa-3ff2-4aa2-8499-e4976bc4260e, sni: us-rn2.xaa.app, udp: true}
-  - {name: 🇹🇼 斑马VIP-台湾, server: banmabanmabanmabanmabanmabanma4.wanlidag.top, port: 54265, type: hysteria2, password: 553efbfe-cc12-4500-8590-4a56ad4bca44, auth: 553efbfe-cc12-4500-8590-4a56ad4bca44, sni: banmabanmabanmabanmabanmabanma4.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: C-TIKTOK, server: 77.105.132.8, port: 80, type: vmess, uuid: 48d5995d-3ba2-44e3-b1b2-e4adb72bcf21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnrussia, headers: {Host: dl.ops.kgvn.garenanow.com}}, udp: true}
-  - {name: 🇮🇳 印度 X A区-1C, server: zf-cm.bgblwow.org, port: 54274, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇺🇸 中转美国1 X1-1B, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: c3c52c63-2c71-47c3-bdf5-ad4ee4c6b68e, udp: true}
-  - {name: TW01|2057, server: 125.228.162.163, port: 10137, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇰🇷 韩国05, server: x02.fafhjkah.xyz, port: 32621, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: TW01|1057, server: 114.46.96.8, port: 10057, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇰🇷 韩国 1 X1-1A, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: f5f8ff64-7c1d-4448-8415-ee3d3d5a0169, udp: true}
-  - {name: 🇻🇳 越南02, server: 02.xunyunnode.sbs, port: 38227, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|1034, server: 1.165.104.139, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇺🇸 美国RN1-快速, server: us-rn1.xaa.app, port: 443, type: trojan, password: 4cc6ceaa-3ff2-4aa2-8499-e4976bc4260e, sni: us-rn1.xaa.app, udp: true}
-  - {name: TW01|2014, server: 1.170.63.60, port: 10094, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇺🇸 斑马白嫖-美国-1B, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: 07c659be-6230-4af7-8e12-0c3e2a51156d, auth: 07c659be-6230-4af7-8e12-0c3e2a51156d, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-V6|03 0.5x, server: netcp3.616626.xyz, port: 22307, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 印度1-1A, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1016, server: 118.170.203.186, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1031, server: 118.170.250.232, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇼 台湾03, server: xc.xunyunnode.sbs, port: 28886, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇰🇷 韩国01, server: x.fafhjkah.xyz, port: 32621, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: 🇺🇸 美国 X A区-1C, server: zf-cm.bgblwow.org, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|2061, server: 36.232.77.52, port: 10141, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: PREMIUM, server: 94.241.140.218, port: 80, type: vmess, uuid: 48d5995d-3ba2-44e3-b1b2-e4adb72bcf21, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnrussia, headers: {Host: dl.ops.kgvn.garenanow.com}}, udp: true}
-  - {name: 🇯🇵 日本1 X1-1A, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: f5f8ff64-7c1d-4448-8415-ee3d3d5a0169, udp: true}
-  - {name: 🇮🇳 印度2-1C, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾1-1C, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡01-1A, server: x.fafhjkah.xyz, port: 32636, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: 0.5x-1A, server: nara.189.ovh, port: 10027, type: trojan, password: d0955291-734f-4712-b0a3-82f5c067c599, sni: nara.189.ovh, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本-自用, server: jp.xaa.app, port: 443, type: trojan, password: 4cc6ceaa-3ff2-4aa2-8499-e4976bc4260e, sni: jp.xaa.app, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 荷兰-V6|03 0.5x, server: naran3.616626.xyz, port: 22308, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本NO.2-1B, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇩🇪 德国 X A区-1B, server: zf-cm.bgblwow.org, port: 58056, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|2005, server: 1.170.5.175, port: 10085, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2059, server: 36.232.95.183, port: 10139, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇼 台湾1-1B, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾解锁 1 X1-1B, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: c3c52c63-2c71-47c3-bdf5-ad4ee4c6b68e, udp: true}
-  - {name: 🇹🇼 台湾 X A区-1B, server: zf-cu.bgblwow.org, port: 56963, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇨🇦 加拿大05, server: x02.fafhjkah.xyz, port: 32625, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: TW01|2068, server: 1.170.28.74, port: 10148, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1042, server: 36.234.116.12, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇼 台湾2-1A, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1030, server: 118.170.200.75, port: 10030, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1060, server: 114.46.121.122, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇦🇺 澳大利亚原生1-1A, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇻🇳 越南01, server: 01.xunyunnode.sbs, port: 10326, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇯🇵 日本NO.1-1B, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1050, server: 36.234.77.185, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1055, server: 36.234.74.181, port: 10055, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇭🇰 香港NO.2-1B, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇩🇪 德国-V6|01 0.5x, server: netcp1.616626.xyz, port: 22305, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾2-1C, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国NO.1-1D, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1070, server: 36.234.95.239, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1025, server: 118.170.250.107, port: 10025, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2001, server: 125.228.180.250, port: 10081, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇫🇷 法国2-1A, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡05, server: x02.fafhjkah.xyz, port: 32636, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: 🇹🇼 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 994a7047-e230-4117-b3c3-f9a470895cc4, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇭 泰国 1 X1-1B, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: c3c52c63-2c71-47c3-bdf5-ad4ee4c6b68e, udp: true}
-  - {name: 🇯🇵 日本NO.2-1C, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2010, server: 1.170.60.19, port: 10090, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇻🇳 越南03, server: xc.xunyunnode.sbs, port: 42767, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇸🇬 新加坡 X A区-1C, server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇯🇵 日本02丨TIKTOK, server: 02.xunyunnode.sbs, port: 44447, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇻🇳 越南 X A区-1C, server: zf-cm.bgblwow.org, port: 58537, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇬🇧 英国1-1D, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇬🇧 英国01-1B, server: 01.xunyunnode.sbs, port: 17587, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|1015, server: 125.230.21.64, port: 10015, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇼 台湾01-1B, server: 01.xunyunnode.sbs, port: 16755, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇸🇬 新加坡 X A区-1A, server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|1069, server: 118.170.215.58, port: 10069, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇸🇬 新加坡 X A区-1B, server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|2041, server: 125.229.88.58, port: 10121, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2032, server: 1.170.9.131, port: 10112, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇰🇷 韩国-三网优化2, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8a6d426c-5d05-498d-9036-94966a72137f, sni: kr-qingyun.dwyun.me, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 荷兰-V6|02 0.5x, server: naran2.616626.xyz, port: 22306, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇩🇪 斑马白嫖-德国-1A, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: 553efbfe-cc12-4500-8590-4a56ad4bca44, auth: 553efbfe-cc12-4500-8590-4a56ad4bca44, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国01-1A, server: x.fafhjkah.xyz, port: 32623, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: TW01|1047, server: 114.33.53.80, port: 10047, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇰🇷 斑马VIP-韩国, server: banmabanmabanmabanmabanmabanma7.wanlidag.top, port: 54265, type: hysteria2, password: 553efbfe-cc12-4500-8590-4a56ad4bca44, auth: 553efbfe-cc12-4500-8590-4a56ad4bca44, sni: banmabanmabanmabanmabanmabanma7.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: TW01|1023, server: 125.229.191.103, port: 10023, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇸🇬 新加坡VL, server: vl1.cpddx.club, port: 8080, type: vless, uuid: 55a66ca3-96a0-4846-87b8-a4fe78c86fca, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: LmdkJJjr6pRvyiyzEztiiH64mAVeHuV3Tm-JGUX1jic}, servername: www.bing.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇨🇦 加拿大1-1A, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2016, server: 1.170.54.230, port: 10096, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇭🇰 香港HK-02, server: 35.220.247.56, port: 20002, type: vless, uuid: bc05d516-1f17-426d-88e1-1bc996f470a9, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 7EzHI1RAOS6UI2MfIkY5bpbBQtlhCKoRMh7nen5_4D8}, servername: www.icloud.com, client-fingerprint: qq, network: tcp, udp: true}
-  - {name: 🇨🇦 加拿大1-1B, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1014, server: 118.170.245.45, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2066, server: 36.232.84.37, port: 10146, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇯🇵 日本-V6|07, server: vpsjp1.668918.xyz, port: 22306, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国 X A区-1A, server: zf-ct.bgblwow.org, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|1021, server: 1.165.100.112, port: 10021, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇼 台湾03|BGP专线|SVIP03, server: 1.1.1.1, port: 12000, type: trojan, password: 71c28bb8-691f-4666-abd4-0cca173545c2, sni: aliyun.com, skip-cert-verify: true, udp: true}
-  - {name: TW01|2031, server: 1.170.54.233, port: 10111, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇭🇰 香港-V6|08, server: greenhk2.616626.xyz, port: 10507, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 X A区-1B, server: zf-cu.bgblwow.org, port: 55064, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|1018, server: 1.165.99.137, port: 10018, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1043, server: 36.234.105.191, port: 10043, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1013, server: 118.170.249.193, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1032, server: 1.165.127.141, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇺🇸 美国07, server: vir694.189.ovh, port: 10021, type: trojan, password: d0955291-734f-4712-b0a3-82f5c067c599, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡VL2, server: vl22.cpddx.club, port: 8080, type: vless, uuid: 55a66ca3-96a0-4846-87b8-a4fe78c86fca, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: LmdkJJjr6pRvyiyzEztiiH64mAVeHuV3Tm-JGUX1jic}, servername: www.bing.com, client-fingerprint: edge, network: tcp, udp: true}
-  - {name: 🇺🇸 美国05-1A, server: x02.fafhjkah.xyz, port: 32623, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: 🇬🇧 英国03, server: xc.xunyunnode.sbs, port: 43421, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇹🇼 台湾05, server: x02.fafhjkah.xyz, port: 32712, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: 🇩🇪 德国 X A区-1A, server: zf-cu.bgblwow.org, port: 51577, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇰🇷 韩国 专线NO2-1C, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2042, server: 1.170.45.153, port: 10122, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇭 泰国 1 X1-1A, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: f5f8ff64-7c1d-4448-8415-ee3d3d5a0169, udp: true}
-  - {name: 🇺🇸 美国04-1A, server: layercloud.189.ovh, port: 10021, type: trojan, password: d0955291-734f-4712-b0a3-82f5c067c599, sni: layercloud.189.ovh, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港02, server: 02.xunyunnode.sbs, port: 45473, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: 🇸🇬 斑马VIP-新加坡, server: banmabanmabanmabanmabanmabanma6.wanlidag.top, port: 54265, type: hysteria2, password: 553efbfe-cc12-4500-8590-4a56ad4bca44, auth: 553efbfe-cc12-4500-8590-4a56ad4bca44, sni: banmabanmabanmabanmabanmabanma6.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 加拿大2-1A, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: a444bd7f-ecb8-460a-84f9-9d425e92d213, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|2039, server: 1.170.24.246, port: 10119, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2067, server: 111.253.215.128, port: 10147, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇭🇰 香港03-1A, server: x.fafhjkah.xyz, port: 32601, type: ss, cipher: chacha20-ietf-poly1305, password: ff1e3042-6bf5-414f-8acd-1269dd836cd5, udp: true}
-  - {name: 🇺🇸 美国NO.1-1C, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1035, server: 1.165.120.53, port: 10035, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇸🇬 新加坡SG-04, server: 34.2.142.108, port: 20004, type: vless, uuid: bc05d516-1f17-426d-88e1-1bc996f470a9, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: LN0V5BmZRNs6dNx_CHoM8d34Kl7qlpxl8xrjE8ZzMzk}, servername: www.icloud.com, client-fingerprint: edge, network: tcp, udp: true}
-  - {name: 🇸🇬 新加坡02丨TIKTOK, server: 02.xunyunnode.sbs, port: 10463, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|2030, server: 1.170.17.17, port: 10110, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇮🇳 印度2-1B, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国2-1C, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: facbb92c-7fde-451d-83b3-6587f613239e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1054, server: 1.165.73.137, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇭🇰 香港-V6|06, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: d0955291-734f-4712-b0a3-82f5c067c599, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 印度 X A区-1B, server: zf-cu.bgblwow.org, port: 50369, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: TW01|2058, server: 36.232.86.29, port: 10138, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇭🇰 香港03-1B, server: hytro.91ai.de, port: 10022, type: trojan, password: d0955291-734f-4712-b0a3-82f5c067c599, sni: hytro.91ai.de, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国02-1B, server: 02.xunyunnode.sbs, port: 37699, type: ss, cipher: chacha20-ietf-poly1305, password: 8d340204-47fb-4d6c-a3ed-c59bd8dd9c12, udp: true}
-  - {name: TW01|1037, server: 114.33.53.213, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇰🇷 韩国 专线NO1-1B, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 2bec3e69-983b-41d3-8f0c-e1526a27068b, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1063, server: 114.46.92.193, port: 10063, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1052, server: 114.46.121.240, port: 10052, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1066, server: 59.126.32.59, port: 10066, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇭🇰 香港NO.2-1D, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: TW01|1027, server: 118.170.225.127, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|1011, server: 1.165.109.246, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇭🇰 香港04|BGP专线|SVIP03, server: 165.154.112.107, port: 12000, type: trojan, password: 71c28bb8-691f-4666-abd4-0cca173545c2, sni: aliyun.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本NO.2-1D, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: c323bcd9-aab9-47e5-ab8d-5594c248529c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国 X A区-1C, server: zf-cm.bgblwow.org, port: 59741, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇺🇸 美国 X A区-1B, server: zf-cu.bgblwow.org, port: 57572, type: ss, cipher: chacha20-ietf-poly1305, password: ae977ac5-27e5-4c29-8bb3-d56de004cabf, udp: true}
-  - {name: 🇹🇼 台湾TW-02, server: 35.206.222.140, port: 20002, type: vless, uuid: bc05d516-1f17-426d-88e1-1bc996f470a9, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: koaZC14G5h5kBpZOOwFntz1jhpc7uWKhYi46xgJVEWA}, servername: www.icloud.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: TW01|1003, server: 36.234.115.227, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: TW01|2046, server: 36.232.114.70, port: 10126, type: ss, cipher: chacha20-ietf-poly1305, password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4, udp: true}
-  - {name: 🇹🇼 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 994a7047-e230-4117-b3c3-f9a470895cc4, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: TW01|1070, server: 36.234.66.86, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇯🇵 日本 X A区-1B, server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇸🇬 新加坡01, server: x.fafhjkah.xyz, port: 32636, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: 🇮🇳 印度2-1D, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1033, server: 125.229.191.104, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇮🇳 印度 X A区-1A, server: zf-ct.bgblwow.org, port: 59069, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|2033, server: 125.228.31.10, port: 10113, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 美国NO.2-1B, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡NO.1-1C, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇲🇽 墨西哥 1 X1-1A, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: a58e7afb-2696-422e-ba60-d3891531c1f4, udp: true}
+  - {name: 🇸🇬 新加坡VL, server: vl1.cpddx.club, port: 8080, type: vless, uuid: 15138750-ee69-4cb0-a3fd-1e57060ff93d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: LmdkJJjr6pRvyiyzEztiiH64mAVeHuV3Tm-JGUX1jic}, servername: www.bing.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 0.5x-1A, server: nara.189.ovh, port: 10027, type: trojan, password: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, sni: nara.189.ovh, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国NO.2-1D, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇦🇺 澳大利亚原生1-1C, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 9458a09b-ba15-4465-83c1-28c03f3bd8d9, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+  - {name: TW01|2044, server: 36.232.96.51, port: 10124, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇹🇼 台湾 X A区-1B, server: zf-cu.bgblwow.org, port: 56963, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇬🇧 英国01, server: x.fafhjkah.xyz, port: 32624, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: TW01|2063, server: 36.232.73.7, port: 10143, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1047, server: 114.33.53.80, port: 10047, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇹🇼 台湾2-1D, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2008, server: 1.170.43.134, port: 10088, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2045, server: 36.232.119.178, port: 10125, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 北美高速, server: 1002.952326.xyz, port: 10001, type: vless, uuid: 89cc5725-780f-4246-a107-2872d5f6206a, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, servername: www.python.org, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇺🇸 美国05-1A, server: x02.fafhjkah.xyz, port: 32623, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: 🇹🇷 土耳其 1 X1-1B, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 41e74eb6-c02a-4021-a6f3-6a792a22476a, udp: true}
+  - {name: 0.5x-1B, server: netcp4.616626.xyz, port: 10027, type: trojan, password: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, sni: netcp4.616626.xyz, skip-cert-verify: true, udp: true}
+  - {name: TW01|1004, server: 1.165.84.153, port: 10004, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1049, server: 125.231.83.195, port: 10049, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1016, server: 118.170.199.164, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2040, server: 36.235.20.245, port: 10120, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇩🇪 斑马白嫖-德国-1A, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: e5977aff-6a42-4fca-93ec-294075e9dbaf, auth: e5977aff-6a42-4fca-93ec-294075e9dbaf, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: TW01|2066, server: 36.232.73.40, port: 10146, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 美国05-1B, server: advin.189.ovh, port: 10027, type: trojan, password: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, sni: advin.189.ovh, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 法国2-1B, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2014, server: 1.170.23.89, port: 10094, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇩🇪 德国-V6|02 0.5x, server: netcp2.616626.xyz, port: 22306, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇫🇷 法国1-1D, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国NO.2-1C, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇩🇪 德国-V6|01 0.5x, server: netcp1.616626.xyz, port: 22305, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡NO.2-1A, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国NO.1-1C, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1035, server: 1.165.99.232, port: 10035, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇻🇳 越南VLESS 中转, server: ntw01.619101.xyz, port: 20006, type: vless, uuid: 5ca83c9d-86ce-4fd8-8a1b-8b87386de1bd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mSMsSffmzvBDOLYt_pX3lV1dxfvD2_5QH11GKcgXcxM}, servername: v1-dy.ixigua.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: TW01|2006, server: 1.170.49.103, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1076, server: 114.46.100.116, port: 10076, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇮🇳 印度1-1D, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1045, server: 114.46.100.144, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2060, server: 36.232.79.115, port: 10140, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2011, server: 36.232.68.112, port: 10091, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇯🇵 日本-V6|05, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本1 X1-1B, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 41e74eb6-c02a-4021-a6f3-6a792a22476a, udp: true}
+  - {name: 🇨🇦 加拿大01, server: x.fafhjkah.xyz, port: 32625, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: 🇺🇸 美国 X A区-1B, server: zf-cu.bgblwow.org, port: 57572, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|1063, server: 114.46.122.233, port: 10063, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1052, server: 114.46.110.2, port: 10052, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇸🇬 新加坡解锁 1 X1-1A, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: a58e7afb-2696-422e-ba60-d3891531c1f4, udp: true}
+  - {name: U8-GAI, server: vvv.google.com, port: 20007, type: vmess, uuid: 9445f62d-2d71-427a-912c-8928cafc057a, alterId: 0, cipher: auto, tls: true, servername: vvv.google.com, udp: true}
+  - {name: 🇬🇧 英国2-1A, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇧🇷 巴西 1 X1-1B, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 41e74eb6-c02a-4021-a6f3-6a792a22476a, udp: true}
+  - {name: TW01|2062, server: 111.253.194.29, port: 10142, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇹🇼 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 9458a09b-ba15-4465-83c1-28c03f3bd8d9, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 X A区-1B, server: zf-cm.bgblwow.org, port: 58056, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇺🇸 中转美国1 X1-1B, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 41e74eb6-c02a-4021-a6f3-6a792a22476a, udp: true}
+  - {name: 🇯🇵 日本02, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
+  - {name: TW01|1064, server: 114.46.108.46, port: 10064, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2034, server: 36.232.109.82, port: 10114, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇯🇵 日本NO.1-1B, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国04, server: layercloud.189.ovh, port: 10021, type: trojan, password: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, sni: layercloud.189.ovh, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡VL2, server: vl22.cpddx.club, port: 8080, type: vless, uuid: 15138750-ee69-4cb0-a3fd-1e57060ff93d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: LmdkJJjr6pRvyiyzEztiiH64mAVeHuV3Tm-JGUX1jic}, servername: www.bing.com, client-fingerprint: qq, network: tcp, udp: true}
+  - {name: 🇭🇰 香港05, server: x02.fafhjkah.xyz, port: 32601, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: 🇨🇦 加拿大1-1B, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇳🇱 荷兰-V6|04 0.5x, server: naran4.616626.xyz, port: 22310, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本 X A区-1C, server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|2003, server: 1.170.53.141, port: 10083, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2036, server: 1.170.13.192, port: 10116, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2051, server: 36.232.94.209, port: 10131, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇸🇬 新加坡 X A区-1C, server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|1037, server: 114.33.53.213, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1069, server: 118.170.196.147, port: 10069, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2055, server: 36.232.115.177, port: 10135, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇰🇷 韩国 X A区-1A, server: zf-ct.bgblwow.org, port: 57459, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|2018, server: 36.232.87.164, port: 10098, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1007, server: 125.229.191.101, port: 10007, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1057, server: 36.234.118.252, port: 10057, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇮🇳 印度 X A区-1C, server: zf-cm.bgblwow.org, port: 54274, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|1059, server: 1.165.122.97, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇦🇺 澳大利亚原生2-1C, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 印度2-1A, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2046, server: 36.232.104.173, port: 10126, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2032, server: 1.170.23.99, port: 10112, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇩🇪 德国 X A区-1A, server: zf-cu.bgblwow.org, port: 51577, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇹🇼 台湾1-1C, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-V6|01, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2017, server: 125.228.31.117, port: 10097, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇯🇵 日本NO.1-1C, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国 1 X1-1B, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 41e74eb6-c02a-4021-a6f3-6a792a22476a, udp: true}
+  - {name: 🇸🇬 新加坡05, server: x02.fafhjkah.xyz, port: 32636, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: 🇸🇬 新加坡 中国优化路线, server: sg1.3224536.xyz, port: 443, type: trojan, password: cf08fd4d-0bbd-4b54-90b3-b66d1ba1706b, sni: sg1.3224536.xyz, skip-cert-verify: true, udp: true}
+  - {name: TW01|2038, server: 1.170.50.8, port: 10118, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1050, server: 125.231.65.29, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇰🇷 韩国 1 X1-1A, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: a58e7afb-2696-422e-ba60-d3891531c1f4, udp: true}
+  - {name: TW01|2048, server: 36.232.76.194, port: 10128, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇳🇱 荷兰-V6|01 0.5x, server: naran1.616626.xyz, port: 22305, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1071, server: 36.234.112.185, port: 10071, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 中转美国1 X1-1A, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: a58e7afb-2696-422e-ba60-d3891531c1f4, udp: true}
+  - {name: TW01|2020, server: 1.170.27.29, port: 10100, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇲🇽 墨西哥 1 X1-1B, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 41e74eb6-c02a-4021-a6f3-6a792a22476a, udp: true}
+  - {name: TW01|1021, server: 1.165.103.134, port: 10021, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇹🇼 台湾1-1A, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国1-1C, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1067, server: 114.46.76.16, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2058, server: 111.253.192.248, port: 10138, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1011, server: 1.165.120.208, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇳🇱 荷兰-V6|02 0.5x, server: naran2.616626.xyz, port: 22306, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2030, server: 1.170.14.134, port: 10110, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2053, server: 1.170.20.38, port: 10133, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1018, server: 1.165.97.189, port: 10018, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1005, server: 1.165.86.13, port: 10005, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇭🇰 香港NO.2-1B, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇸 冰岛 1 X1-1A, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: a58e7afb-2696-422e-ba60-d3891531c1f4, udp: true}
+  - {name: 🇸🇬 新加坡 X A区-1A, server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇻🇳 越南VLESS, server: vn01.transformationalg.lol, port: 40003, type: vless, uuid: 5ca83c9d-86ce-4fd8-8a1b-8b87386de1bd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: mSMsSffmzvBDOLYt_pX3lV1dxfvD2_5QH11GKcgXcxM}, servername: v1-dy.ixigua.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇫🇷 法国1-1C, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2069, server: 111.253.216.71, port: 10149, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1065, server: 36.234.65.77, port: 10065, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-001, server: 212.192.15.176, port: 33079, type: hysteria2, password: 566bf452-a086-41f0-a474-d7ae067956ee, auth: 566bf452-a086-41f0-a474-d7ae067956ee, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
+  - {name: 🇺🇸 美国02, server: vir11.189.ovh, port: 10022, type: trojan, password: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
+  - {name: TW01|1062, server: 36.234.81.170, port: 10062, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇭🇰 香港NO.1-1D, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇦 加拿大1-1C, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾01, server: x.fafhjkah.xyz, port: 32612, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: 🇦🇺 澳大利亚原生2-1D, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国05, server: x02.fafhjkah.xyz, port: 32621, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: TW01|1008, server: 36.234.97.54, port: 10008, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2001, server: 125.228.180.250, port: 10081, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1010, server: 125.230.14.240, port: 10010, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2013, server: 1.170.54.130, port: 10093, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1038, server: 114.46.96.6, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇯🇵 日本1 X1-1A, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: a58e7afb-2696-422e-ba60-d3891531c1f4, udp: true}
+  - {name: TW01|1036, server: 118.170.224.245, port: 10036, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1023, server: 125.229.191.103, port: 10023, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2068, server: 1.170.1.137, port: 10148, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇮🇱 以色列 1x1-1A, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: a58e7afb-2696-422e-ba60-d3891531c1f4, udp: true}
+  - {name: TW01|1026, server: 1.165.64.251, port: 10026, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇯🇵 斑马VIP-日本, server: banmabanmabanmabanmabanmabanma5.wanlidag.top, port: 54265, type: hysteria2, password: e5977aff-6a42-4fca-93ec-294075e9dbaf, auth: e5977aff-6a42-4fca-93ec-294075e9dbaf, sni: banmabanmabanmabanmabanmabanma5.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: TW01|1060, server: 36.234.117.141, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2057, server: 125.228.162.163, port: 10137, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇹🇼 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 9458a09b-ba15-4465-83c1-28c03f3bd8d9, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 斑马VIP-美国, server: banmabanmabanmabanmabanmabanma3.wanlidag.top, port: 54265, type: hysteria2, password: e5977aff-6a42-4fca-93ec-294075e9dbaf, auth: e5977aff-6a42-4fca-93ec-294075e9dbaf, sni: banmabanmabanmabanmabanmabanma3.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国NO.1-1B, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港 X A区-1A, server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|1001, server: 125.229.191.100, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇨🇦 加拿大2-1B, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡NO.2-1D, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡H23, server: h23.cpddx.club, port: 8443, type: hysteria2, password: 15138750-ee69-4cb0-a3fd-1e57060ff93d, auth: 15138750-ee69-4cb0-a3fd-1e57060ff93d, sni: h23.cpddx.club, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本03, server: cloud.yueyun.de, port: 10389, type: trojan, password: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
+  - {name: TW01|1051, server: 36.234.65.221, port: 10051, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-002, server: 212.192.15.176, port: 25169, type: vmess, uuid: 566bf452-a086-41f0-a474-d7ae067956ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 香港NO.1-1A, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国1-1A, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1073, server: 59.126.32.188, port: 10073, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇻🇳 越南 X A区-1B, server: zf-cu.bgblwow.org, port: 55774, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇮🇳 印度 X A区-1B, server: zf-cu.bgblwow.org, port: 50369, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇸🇬 新加坡NO.1-1B, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1019, server: 125.229.191.102, port: 10019, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇭🇰 香港 1 X1-1A, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a58e7afb-2696-422e-ba60-d3891531c1f4, udp: true}
+  - {name: 🇷🇺 斑马VIP-俄罗斯, server: banmabanmabanmabanmabanmabanma8.wanlidag.top, port: 54265, type: hysteria2, password: e5977aff-6a42-4fca-93ec-294075e9dbaf, auth: e5977aff-6a42-4fca-93ec-294075e9dbaf, sni: banmabanmabanmabanmabanmabanma8.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大1-1A, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2005, server: 1.170.5.60, port: 10085, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 美国NO.2-1A, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡解锁 1 X1-1B, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 41e74eb6-c02a-4021-a6f3-6a792a22476a, udp: true}
+  - {name: 🇦🇺 澳大利亚原生1-1A, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1003, server: 36.234.107.120, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇭🇰 香港-V6|08, server: greenhk2.616626.xyz, port: 10507, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 印度1-1B, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2041, server: 125.229.88.58, port: 10121, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2047, server: 36.232.86.87, port: 10127, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇬🇧 英国05, server: x02.fafhjkah.xyz, port: 32624, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: 🇫🇷 法国2-1A, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1034, server: 1.165.99.50, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇦🇺 澳大利亚原生1-1D, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1013, server: 125.230.18.180, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇮🇸 冰岛 1 X1-1B, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 41e74eb6-c02a-4021-a6f3-6a792a22476a, udp: true}
+  - {name: 🇸🇬 斑马VIP-新加坡, server: banmabanmabanmabanmabanmabanma6.wanlidag.top, port: 54265, type: hysteria2, password: e5977aff-6a42-4fca-93ec-294075e9dbaf, auth: e5977aff-6a42-4fca-93ec-294075e9dbaf, sni: banmabanmabanmabanmabanmabanma6.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: TW01|2010, server: 1.170.12.170, port: 10090, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1068, server: 36.234.65.154, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇹🇼 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 9458a09b-ba15-4465-83c1-28c03f3bd8d9, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 斑马白嫖-美国-1B, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: aeaa8f94-5140-4e11-b579-f01eea9e40ae, auth: aeaa8f94-5140-4e11-b579-f01eea9e40ae, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: TW01|1061, server: 118.170.235.129, port: 10061, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇭🇰 香港NO.1-1B, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇦🇺 澳大利亚原生2-1A, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国NO.1-1A, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港-V6|07, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 斑马VIP-香港2, server: banmabanmabanmabanmabanmabanma10.wanlidag.top, port: 54265, type: hysteria2, password: e5977aff-6a42-4fca-93ec-294075e9dbaf, auth: e5977aff-6a42-4fca-93ec-294075e9dbaf, sni: banmabanmabanmabanmabanmabanma10.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: TW01|1031, server: 1.165.123.136, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇹🇷 土耳其 1 X1-1A, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: a58e7afb-2696-422e-ba60-d3891531c1f4, udp: true}
+  - {name: 🇮🇳 印度2-1B, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾1-1D, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2016, server: 1.170.23.86, port: 10096, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1079, server: 36.234.99.56, port: 10079, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇯🇵 日本 X A区-1A, server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇭🇰 香港 X A区-1C, server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|1043, server: 36.234.111.35, port: 10043, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇰🇷 韩国 X A区-1C, server: zf-cm.bgblwow.org, port: 55782, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇦🇺 澳大利亚原生1-1B, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇻🇳 越南 X A区-1A, server: zf-ct.bgblwow.org, port: 52384, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇧🇷 巴西 X A区-1B, server: zf-cu.bgblwow.org, port: 57609, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇸🇬 新加坡NO.1-1A, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 北美IPLC专线, server: 1002.952326.xyz, port: 10000, type: hysteria2, password: 89cc5725-780f-4246-a107-2872d5f6206a, auth: 89cc5725-780f-4246-a107-2872d5f6206a, sni: 1002.kingfisher.us.kg, skip-cert-verify: false, obfs: salamander, obfs-password: VAYpRqMdlHDFG7EA, udp: true}
+  - {name: 🇰🇷 韩国 X A区-1B, server: zf-cu.bgblwow.org, port: 55064, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|1022, server: 125.230.11.163, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2022, server: 1.170.29.4, port: 10102, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2070, server: 36.232.115.87, port: 10150, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇮🇳 印度 1 X1-1A, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: a58e7afb-2696-422e-ba60-d3891531c1f4, udp: true}
+  - {name: 有问题访问, server: x.fafhjkah.xyz, port: 32602, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: TW01|2021, server: 36.235.3.226, port: 10101, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 美国 X A区-1A, server: zf-ct.bgblwow.org, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|2049, server: 114.35.114.182, port: 10129, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2027, server: 1.170.1.14, port: 10107, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1028, server: 1.165.124.54, port: 10028, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2037, server: 36.235.11.59, port: 10117, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇸🇬 新加坡NO.1-1D, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1030, server: 125.230.15.197, port: 10030, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1020, server: 1.165.118.5, port: 10020, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1080, server: 114.46.75.144, port: 10080, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇬🇧 英国1-1B, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.1-1D, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国-V6|01 2, server: crun6.668918.xyz, port: 22308, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡 X A区-1B, server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|2056, server: 36.232.95.74, port: 10136, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1044, server: 114.46.83.135, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 美国07, server: vir694.189.ovh, port: 10021, type: trojan, password: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 印度1-1A, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1029, server: 1.165.91.80, port: 10029, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2025, server: 125.228.34.244, port: 10105, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2012, server: 36.235.15.22, port: 10092, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2061, server: 36.232.89.135, port: 10141, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2019, server: 1.170.42.185, port: 10099, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1054, server: 1.165.114.124, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇦🇺 AU, server: au.tizi8.top, port: 36999, type: hysteria2, password: e99c48a2-e351-40ae-a161-1d77d1bd813d, auth: e99c48a2-e351-40ae-a161-1d77d1bd813d, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇳 印度2-1C, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾 X A区-1C, server: zf-cm.bgblwow.org, port: 57989, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: MA-MPJ, server: empty.node, port: 443, type: trojan, password: 1f3362f4-08ff-4a82-9c7d-4fcdddb18e6a, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 X A区-1B, server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇹🇼 台湾解锁 1 X1-1B, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 41e74eb6-c02a-4021-a6f3-6a792a22476a, udp: true}
+  - {name: TW01|2024, server: 1.170.10.240, port: 10104, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇩🇪 德国-V6|03 0.5x, server: netcp3.616626.xyz, port: 22307, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港 1 X1-1B, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 41e74eb6-c02a-4021-a6f3-6a792a22476a, udp: true}
+  - {name: 🇯🇵 日本NO.1-1A, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国 专线NO2-1C, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1056, server: 114.46.74.54, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1015, server: 1.165.106.7, port: 10015, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-HY-002, server: 212.192.15.176, port: 80, type: hysteria2, password: 566bf452-a086-41f0-a474-d7ae067956ee, auth: 566bf452-a086-41f0-a474-d7ae067956ee, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ%3D%3D, udp: true}
+  - {name: TW01|2035, server: 36.232.121.189, port: 10115, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇭🇰 香港-V4|02, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, sni: hkvm4.656888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大1-1D, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2042, server: 36.235.0.125, port: 10122, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 美国-拉斯维加斯-001, server: 212.192.15.176, port: 23185, type: vmess, uuid: 566bf452-a086-41f0-a474-d7ae067956ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: TW01|1055, server: 36.234.66.57, port: 10055, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇫🇷 法国 X A区-1B, server: zf-cu.bgblwow.org, port: 50748, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|2023, server: 1.170.1.219, port: 10103, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2026, server: 1.170.45.93, port: 10106, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇰🇷 韩国 专线NO1-1A, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国 专线NO1-1D, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1041, server: 1.165.70.117, port: 10041, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇮🇳 印度 1 X1-1B, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 41e74eb6-c02a-4021-a6f3-6a792a22476a, udp: true}
+  - {name: 🇹🇼 斑马VIP-台湾, server: banmabanmabanmabanmabanmabanma4.wanlidag.top, port: 54265, type: hysteria2, password: e5977aff-6a42-4fca-93ec-294075e9dbaf, auth: e5977aff-6a42-4fca-93ec-294075e9dbaf, sni: banmabanmabanmabanmabanmabanma4.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: TW01|1024, server: 125.230.0.195, port: 10024, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1075, server: 36.234.69.29, port: 10075, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇯🇵 日本-V6|02, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港NO.2-1A, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡H2, server: h22.cpddx.club, port: 8443, type: hysteria2, password: 15138750-ee69-4cb0-a3fd-1e57060ff93d, auth: 15138750-ee69-4cb0-a3fd-1e57060ff93d, sni: h22.cpddx.club, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本-V6|07, server: vpsjp1.668918.xyz, port: 22306, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1009, server: 118.170.245.3, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1017, server: 118.170.203.35, port: 10017, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 美国-纽约-HY-001, server: 212.192.15.176, port: 31008, type: hysteria2, password: 566bf452-a086-41f0-a474-d7ae067956ee, auth: 566bf452-a086-41f0-a474-d7ae067956ee, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ%3D%3D, udp: true}
+  - {name: TW01|2065, server: 125.228.162.233, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇫🇷 法国 X A区-1A, server: zf-ct.bgblwow.org, port: 59720, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇮🇳 印度1-1C, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国 X A区-1C, server: zf-cm.bgblwow.org, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|2002, server: 1.170.27.28, port: 10082, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: C5-UPV, server: zf-cm.bgblwow.org, port: 57304, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|1002, server: 1.165.123.35, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 US, server: us.tizi8.top, port: 36999, type: hysteria2, password: e99c48a2-e351-40ae-a161-1d77d1bd813d, auth: e99c48a2-e351-40ae-a161-1d77d1bd813d, skip-cert-verify: false, udp: true}
+  - {name: TW01|2064, server: 36.232.71.22, port: 10144, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1006, server: 1.165.108.40, port: 10006, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇭🇰 香港03-1B, server: hytro.91ai.de, port: 10022, type: trojan, password: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, sni: hytro.91ai.de, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本05, server: x02.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: 🇩🇪 斑马白嫖-德国-1B, server: banmabanmabanmabanmabanmabanma2.wanlidag.top, port: 54265, type: hysteria2, password: aeaa8f94-5140-4e11-b579-f01eea9e40ae, auth: aeaa8f94-5140-4e11-b579-f01eea9e40ae, sni: banmabanmabanmabanmabanmabanma2.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 9458a09b-ba15-4465-83c1-28c03f3bd8d9, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国01-1A, server: x.fafhjkah.xyz, port: 32623, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: 🇰🇷 韩国 专线NO1-1B, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1042, server: 36.234.93.10, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇫🇷 法国1-1B, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国1-1D, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇧🇷 巴西 X A区-1A, server: zf-ct.bgblwow.org, port: 59469, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇫🇷 法国2-1D, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2054, server: 36.232.93.125, port: 10134, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 美国, server: us1.3224536.xyz, port: 443, type: trojan, password: cf08fd4d-0bbd-4b54-90b3-b66d1ba1706b, sni: us1.3224536.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 专线NO1-1C, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2028, server: 1.170.54.41, port: 10108, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇨🇦 加拿大2-1C, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾 X A区-1A, server: zf-ct.bgblwow.org, port: 59345, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|2015, server: 1.170.34.200, port: 10095, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇧🇷 巴西 1 X1-1A, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: a58e7afb-2696-422e-ba60-d3891531c1f4, udp: true}
+  - {name: TW01|1040, server: 125.230.2.54, port: 10040, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇭🇰 斑马VIP-香港, server: banmabanmabanmabanmabanmabanma9.wanlidag.top, port: 54265, type: hysteria2, password: e5977aff-6a42-4fca-93ec-294075e9dbaf, auth: e5977aff-6a42-4fca-93ec-294075e9dbaf, sni: banmabanmabanmabanmabanmabanma9.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 法国1-1A, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇫🇷 法国 X A区-1C, server: zf-cm.bgblwow.org, port: 59741, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇰🇷 韩国 专线NO2-1B, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾1-1B, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港BGP 4x, server: bgp2.3224536.xyz, port: 443, type: trojan, password: cf08fd4d-0bbd-4b54-90b3-b66d1ba1706b, sni: bgp2.3224536.xyz, skip-cert-verify: true, udp: true}
+  - {name: TW01|1014, server: 125.230.2.80, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇸🇬 新加坡NO.2-1C, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.2-1C, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2059, server: 36.232.108.61, port: 10139, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇻🇳 越南 X A区-1C, server: zf-cm.bgblwow.org, port: 58537, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|2007, server: 1.170.42.89, port: 10087, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇰🇷 韩国 专线NO2-1D, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本-V6|06, server: greenip3.668918.xyz, port: 22308, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2009, server: 125.228.180.215, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇰🇷 韩国01, server: x.fafhjkah.xyz, port: 32621, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: 🇹🇼 台湾2-1B, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国01-1B, server: vir732.189.ovh, port: 10026, type: trojan, password: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
+  - {name: TW01|1053, server: 36.234.125.104, port: 10053, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇧🇷 巴西 X A区-1C, server: zf-cm.bgblwow.org, port: 53131, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: 🇨🇦 加拿大2-1A, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2029, server: 1.170.16.127, port: 10109, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2004, server: 36.235.5.222, port: 10084, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇯🇵 日本NO.2-1B, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1012, server: 125.231.77.193, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 美国-纽约-001, server: 212.192.15.176, port: 22123, type: vmess, uuid: 566bf452-a086-41f0-a474-d7ae067956ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: TW01|2039, server: 1.170.27.71, port: 10119, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇹🇭 泰国 1 X1-1A, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: a58e7afb-2696-422e-ba60-d3891531c1f4, udp: true}
+  - {name: 🇸🇬 新加坡NO.2-1B, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1074, server: 36.234.126.119, port: 10074, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇭🇰 香港-V6|05 0.5x, server: nathk.91ai.de, port: 18002, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1078, server: 36.234.103.134, port: 10078, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇸🇬 新加坡, server: 134.122.174.192, port: 12389, type: ss, cipher: chacha20-ietf-poly1305, password: aab77fbb-c112-47bb-9827-63fa767ca5df, udp: true}
+  - {name: TW01|2072, server: 1.170.2.230, port: 10152, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇫🇷 法国2-1C, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇦 加拿大05, server: x02.fafhjkah.xyz, port: 32625, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: 🇯🇵 日本01-1B, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港NO.1-1C, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1046, server: 114.46.100.209, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇸🇬 新加坡TJ, server: tj.cpddx.club, port: 8443, type: trojan, password: 15138750-ee69-4cb0-a3fd-1e57060ff93d, sni: tj.cpddx.club, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: tj.cpddx.club}}, udp: true}
+  - {name: 🇯🇵 日本NO.2-1A, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾05, server: x02.fafhjkah.xyz, port: 32712, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: 🇯🇵 日本NO.2-1D, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1072, server: 114.46.121.31, port: 10072, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1027, server: 1.165.68.244, port: 10027, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇨🇦 加拿大2-1D, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港-V6|06, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国2-1D, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾2-1C, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|1025, server: 1.165.108.191, port: 10025, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1048, server: 36.234.73.135, port: 10048, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇭🇰 香港NO.2-1C, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇭 泰国 1 X1-1B, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 41e74eb6-c02a-4021-a6f3-6a792a22476a, udp: true}
+  - {name: TW01|2052, server: 36.232.83.186, port: 10132, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇯🇵 日本01-1A, server: x.fafhjkah.xyz, port: 32642, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: TW01|2043, server: 36.232.74.146, port: 10123, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇹🇼 台湾2-1A, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾解锁 1 X1-1A, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: a58e7afb-2696-422e-ba60-d3891531c1f4, udp: true}
+  - {name: TW01|1058, server: 59.126.32.1, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1077, server: 36.234.99.225, port: 10077, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇳🇱 荷兰-V6|03 0.5x, server: naran3.616626.xyz, port: 22308, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国2-1C, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 695d9fc5-927a-417e-bec3-16d63964e6cd, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港03-1A, server: x.fafhjkah.xyz, port: 32601, type: ss, cipher: chacha20-ietf-poly1305, password: f59d9e21-a7d9-4bf9-a98e-8470a0f9c926, udp: true}
+  - {name: 🇰🇷 斑马VIP-韩国, server: banmabanmabanmabanmabanmabanma7.wanlidag.top, port: 54265, type: hysteria2, password: e5977aff-6a42-4fca-93ec-294075e9dbaf, auth: e5977aff-6a42-4fca-93ec-294075e9dbaf, sni: banmabanmabanmabanmabanmabanma7.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: TW01|1039, server: 1.165.82.224, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇭🇰 香港NO.2-1D, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: TW01|2071, server: 36.232.106.104, port: 10151, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇦🇺 澳大利亚原生2-1B, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本-V6|04, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: e3bf9b5a-6261-4214-9c23-b20b7cfe5a9d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 斑马白嫖-美国-1A, server: banmabanmabanmabanmabanmabanma1.wanlidag.top, port: 54265, type: hysteria2, password: e5977aff-6a42-4fca-93ec-294075e9dbaf, auth: e5977aff-6a42-4fca-93ec-294075e9dbaf, sni: banmabanmabanmabanmabanmabanma1.wanlidag.top, skip-cert-verify: true, udp: true}
+  - {name: TW01|2067, server: 36.232.68.142, port: 10147, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|1032, server: 125.230.12.229, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: TW01|2031, server: 1.170.27.15, port: 10111, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇺🇸 美国NO.1-1D, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 5e58000b-684b-4685-b8e7-f37d04332d2c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国2-1B, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 1d446b28-2aed-48f5-9243-bc62246a9b10, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国 专线NO2-1A, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 363b722c-59e9-4250-8a5a-fb1909af6da4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇱 以色列 1x1-1B, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 41e74eb6-c02a-4021-a6f3-6a792a22476a, udp: true}
+  - {name: TW01|2050, server: 36.232.107.24, port: 10130, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
+  - {name: 🇩🇪 德国 XA区, server: zf-ct.bgblwow.org, port: 54881, type: ss, cipher: chacha20-ietf-poly1305, password: 400e9f00-2568-4f6c-a1df-2c2c18990dd2, udp: true}
+  - {name: TW01|1066, server: 59.126.32.59, port: 10066, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
